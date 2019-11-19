@@ -1,7 +1,7 @@
 {{- $section1 := .Site.Params.section1 }}
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
-{{- $buttonText := index $hero "buttontext" }}
+{{- $buttonText := index $section1 "buttontext" }}
 {{- $tiles    := index $section1 "tiles" }}
 <section class="section section-feature-grey is-medium">
   <div class="container">
